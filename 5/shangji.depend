@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1541409013 source:c:\users\wj\desktop\shangji\main.cpp
+	<iostream>
+	<string>
+	<stdlib.h>
+	<stack>
+	<string.h>
+	<cstdlib>
+

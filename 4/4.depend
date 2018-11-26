@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1540114784 source:c:\users\wj\desktop\4\main.cpp
+	<iostream>
+	<stack>
+	<string.h>
+

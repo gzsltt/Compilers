@@ -1,0 +1,120 @@
+autostart = False
+version = 2.1.1
+[vbox 127.0.0.1:16600]
+    workingdir = None
+    udp = 16000
+    [[PC PC_4]]
+        image = .
+        device_id = 4
+        bridge_mac = 14-af-0f-1f-04-00
+        slot0 = PC 250
+        GE_0/1 = SWB GE_0/4
+        symbol = PC
+        x = -140.0
+        y = -684.0
+        z = 5.0
+    [[PC PC_3]]
+        image = .
+        device_id = 3
+        bridge_mac = 14-6c-4e-e3-03-00
+        slot0 = PC 250
+        GE_0/1 = SWA GE_0/4
+        symbol = PC
+        x = -188.0
+        y = -201.0
+        z = 5.0
+    [[S5820V2-54QS-GE SWA]]
+        image = .
+        device_id = 1
+        bridge_mac = 14-47-e6-ac-01-00
+        slot0 = S5800 512
+        GE_0/1 = SWB GE_0/1
+        GE_0/2 = SWB GE_0/2
+        GE_0/3 = SWB GE_0/3
+        GE_0/4 = PC_3 GE_0/1
+        x = -323.0
+        y = -384.0
+        z = 5.0
+    [[S5820V2-54QS-GE SWB]]
+        image = .
+        device_id = 2
+        bridge_mac = 14-48-05-da-02-00
+        slot0 = S5800 512
+        GE_0/1 = SWA GE_0/1
+        GE_0/2 = SWA GE_0/2
+        GE_0/3 = SWA GE_0/3
+        GE_0/4 = PC_4 GE_0/1
+        x = 184.0
+        y = -385.0
+        z = 5.0
+[GNS3-DATA]
+    [[NOTE 1]]
+        text = "GE_0/1"
+        x = 1.25404205719
+        y = -37.0
+        interface = PC_3 GE_0/1
+        font = "Arial,10,-1,5,50,0,0,0,0,0"
+        z = 6.0
+    [[NOTE 2]]
+        text = "GE_0/1"
+        x = 54.395615903
+        y = 52.1274356636
+        interface = PC_4 GE_0/1
+        font = "Arial,10,-1,5,50,0,0,0,0,0"
+        z = 6.0
+    [[NOTE 3]]
+        text = "GE_0/4"
+        x = -82.395615903
+        y = -37.0
+        interface = SWB GE_0/4
+        font = "Arial,10,-1,5,50,0,0,0,0,0"
+        z = 6.0
+    [[NOTE 4]]
+        text = "GE_0/3"
+        x = -93.0097841078
+        y = 31.0789050358
+        interface = SWB GE_0/3
+        font = "Arial,10,-1,5,50,0,0,0,0,0"
+        z = 6.0
+    [[NOTE 5]]
+        text = "GE_0/2"
+        x = -93.9900602803
+        y = -5.9211144157
+        interface = SWB GE_0/2
+        font = "Arial,10,-1,5,50,0,0,0,0,0"
+        z = 6.0
+    [[NOTE 6]]
+        text = "GE_0/1"
+        x = -89.999922194
+        y = -30.92110469
+        interface = SWB GE_0/1
+        font = "Arial,10,-1,5,50,0,0,0,0,0"
+        z = 6.0
+    [[NOTE 7]]
+        text = "GE_0/4"
+        x = 48.7459579428
+        y = 57.1889652114
+        interface = SWA GE_0/4
+        font = "Arial,10,-1,5,50,0,0,0,0,0"
+        z = 6.0
+    [[NOTE 8]]
+        text = "GE_0/3"
+        x = 62.9900602803
+        y = 32.9211144157
+        interface = SWA GE_0/3
+        font = "Arial,10,-1,5,50,0,0,0,0,0"
+        z = 6.0
+    [[NOTE 9]]
+        text = "GE_0/2"
+        x = 61.0097841078
+        y = -9.07890503579
+        interface = SWA GE_0/2
+        font = "Arial,10,-1,5,50,0,0,0,0,0"
+        z = 6.0
+    [[NOTE 10]]
+        text = "GE_0/1"
+        x = 57.999922194
+        y = -30.07889531
+        interface = SWA GE_0/1
+        font = "Arial,10,-1,5,50,0,0,0,0,0"
+        z = 6.0

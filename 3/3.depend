@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1539008073 source:c:\users\wj\desktop\3\main.cpp
+	<iostream>
+	<string>
+	<conio.h>
+	<stdlib.h>
+
